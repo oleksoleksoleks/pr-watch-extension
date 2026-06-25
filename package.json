@@ -10,7 +10,7 @@
   },
   "scripts": {
     "check": "bun --check pr-watch.ts",
-    "install:local": "mkdir -p ~/.omp/agent/extensions && cp pr-watch.ts ~/.omp/agent/extensions/pr-watch.ts"
+    "install:local": "node scripts/install-local.mjs"
   },
   "keywords": [
     "omp",
