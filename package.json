@@ -1,0 +1,19 @@
+{
+  "name": "pr-watch-extension",
+  "version": "0.1.0",
+  "description": "OMP extension for watching GitHub PRs for roboomp feedback.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "check": "bun --check pr-watch.ts",
+    "install:local": "mkdir -p ~/.omp/agent/extensions && cp pr-watch.ts ~/.omp/agent/extensions/pr-watch.ts"
+  },
+  "keywords": [
+    "omp",
+    "extension",
+    "github",
+    "pull-request",
+    "roboomp"
+  ],
+  "license": "UNLICENSED"
+}
