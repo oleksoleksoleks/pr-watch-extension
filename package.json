@@ -4,6 +4,10 @@
   "description": "OMP extension for watching GitHub PRs for roboomp feedback.",
   "type": "module",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksoleksoleks/pr-watch-extension.git"
+  },
   "scripts": {
     "check": "bun --check pr-watch.ts",
     "install:local": "mkdir -p ~/.omp/agent/extensions && cp pr-watch.ts ~/.omp/agent/extensions/pr-watch.ts"

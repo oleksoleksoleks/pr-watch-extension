@@ -1,3 +1,6 @@
+// Canonical source: https://github.com/oleksoleksoleks/pr-watch-extension
+// Edit the repo copy first, commit/push it, then run `npm run install:local` to update ~/.omp/agent/extensions/pr-watch.ts.
+
 import type { ExtensionAPI, ExtensionCommandContext, ExtensionContext } from "@oh-my-pi/pi-coding-agent";
 
 interface PullRequestSummary {
